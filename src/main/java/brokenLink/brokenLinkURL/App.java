@@ -107,6 +107,7 @@ public static void 	verifyLinkActive(String LINKurl){
 	}
 	else{
 		System.out.println(LINKurl + " -" +httpURLConnect.getResponseMessage());
+		//new line added
 	}
 	/*if(httpURLConnect.getResponseCode()==HttpURLConnection.HTTP_ACCEPTED){
 		System.out.println(LINKurl + " -" +httpURLConnect.getResponseMessage());
